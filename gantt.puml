@@ -1,0 +1,32 @@
+@startgantt
+Project starts 2023-03-13
+language es
+printscale weekly with calendar date zoom 2
+
+-- Informe --
+[Investigar estado del arte] starts 2023-03-14 and ends 2023-04-02
+[Escribir primer avance] starts 2023-03-27 and ends 2023-04-06
+[Crear carta Gantt] starts 2023-04-05 and lasts 2 days
+[Entrega primer avance] happens at 2023-04-06
+[Escribir segundo avance] starts at 2023-05-1 and ends 2023-05-12
+[Entrega segundo avance] happens at 2023-05-12
+[Escribir informe final] starts at 2023-06-12 and ends 2023-06-23
+[Entrega informe final] happens at 2023-06-23
+
+-- Simulador --
+[Registrar condición del simulador] starts at 2023-04-10 and lasts 1 week
+[Respaldar software del simulador] starts at 2023-04-10 and lasts 1 week
+[Diseñar nueva configuracion del simulador] starts at 2023-04-10 and lasts 1 week
+[Formatear simulador] starts at 2023-04-17 and lasts 1 week
+[Configurar simulador] starts at 2023-04-17 and lasts 2 weeks
+[Verificar funcionamiento del simulador] starts at 2023-05-01 and lasts 4 weeks
+
+-- Protocolo de comunicación --
+[Escribir programa de comunicación IP] starts at 2023-04-10 and lasts 1 week
+[Escribir programa con librería XPUIPC] starts at 2023-04-10 and lasts 2 weeks
+[Definir y escribir implementación del protocolo] starts at 2023-04-17 and lasts 3 weeks
+[Verificar software del protocolo] starts at 2023-05-01 and lasts 3 weeks
+
+-- Documentación --
+[Escribir documentación] starts at 2023-05-22 and lasts 3 weeks
+@endgantt
